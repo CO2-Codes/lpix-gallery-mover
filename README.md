@@ -6,7 +6,7 @@ LPix is associated with the SA LP community. If you don't know what that is, the
 This repository contains a simple Python script that will move all files from one LPix gallery to another.
 It is useful in case you're not happy anymore with how you divided your galleries and want to clean up a bit.
 
-Due to how LPix works, all actual images links should keep working, so your LP updates won't break.
+Due to how LPix works, all actual image links should keep working, so your LP updates won't break.
 
 ## How to install
 
