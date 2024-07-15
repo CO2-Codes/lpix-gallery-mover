@@ -50,6 +50,12 @@ scripting support, this script will stop with exit code 1 whenever any error was
 
 For all command line arguments please run python `lpixmove.py move --help`
 
+## FAQ
+*Q. Can I move images from or to the default gallery?*
+
+A. Yes. This gallery has always index -1 and this script can handle that. Deleting the default gallery is not allowed by LPix,
+so if you ask the script to do this, it will tell you it succeeded but the gallery will still be there.
+
 ## Troubleshooting
 
 The script attempts to read your browser's cookies for your lpix password. If you're not logged in, logged in with multiple accounts, or use some kind of very unusual

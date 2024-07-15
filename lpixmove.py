@@ -48,7 +48,7 @@ def delete_old_gallery(old_gallery_id, user_gallery_url, cookies):
 
 def parse_page(gallery_url, type_for_logging, cookies):
     try:
-        gallery_id = re.findall(r'/\d+', gallery_url)[-1][1:]
+        gallery_id = re.findall(r'\/\-?\d+', gallery_url)[-1][1:]
 
         # Need to know the gallery without the last part for the deletion URL.
         # To deal with the edge case where a gallery id is the same as the user name, use a workaround to only remove
