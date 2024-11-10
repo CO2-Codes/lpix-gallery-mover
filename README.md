@@ -22,7 +22,7 @@ The LPix Gallery mover requires several dependencies. Run the following on your 
 pip install requests click browser-cookie3 beautifulsoup4
 ```
 
-Download the script by [clicking on a Source Code link here](https://github.com/CO2-Codes/lpix-gallery-mover/releases/tag/1.0), and see if it runs. If everything works this should show a help page.
+Download the script by [clicking on a Source Code link here](https://github.com/CO2-Codes/lpix-gallery-mover/releases), and see if it runs. If everything works this should show a help page:
 ```sh
 python lpixmove.py
 ```
